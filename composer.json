@@ -1,0 +1,15 @@
+{
+  "require-dev": {
+    "monolog/monolog": "1.23.0",
+    "phpunit/phpunit": "6.4.4",
+    "facebook/webdriver": "1.5.0",
+    "behat/behat": "3.4.2",
+    "phpstan/phpstan": "0.8.5",
+    "friendsofphp/php-cs-fixer": "2.8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "myTests\\": "src/"
+    }
+  }
+}

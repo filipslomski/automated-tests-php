@@ -1,0 +1,7 @@
+.idea/*
+.php_cs.cache
+vendor/
+composer.lock
+**/screenshots
+**/coverage/*.html
+src/Reports/*

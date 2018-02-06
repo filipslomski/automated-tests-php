@@ -1,0 +1,23 @@
+# behat.yml
+default:
+    autoload:
+        - %paths.base%/../
+    formatters:
+        pretty: true
+    suites:
+        core:
+            filters:
+              tags: "@core"
+            paths:
+                - %paths.base%/../Features
+            contexts:
+                - myTests\Steps\BaseHooks
+                - myTests\Steps\LoginSteps
+        purgatory:
+            filters:
+              tags: "@purgatory"
+            paths:
+                - %paths.base%/../Features
+            contexts:
+                - myTests\Steps\BaseHooks
+                - myTests\Steps\LoginSteps
